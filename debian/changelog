@@ -1,0 +1,75 @@
+python-sh (1.14.2-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Gordon Ball ]
+  * Fix d/watch match pattern
+  * New upstream version 1.14.2
+
+ -- Gordon Ball <gordon@chronitis.net>  Sat, 09 Oct 2021 22:11:12 +0000
+
+python-sh (1.14.1-1) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Bump Standards-Version to 4.4.1.
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Set field Upstream-Name in debian/copyright.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Gordon Ball ]
+  * d/watch: use github as upstream
+  * New upstream version 1.14.1
+  * d/control: Rules-Requires-Root: no
+
+ -- Gordon Ball <gordon@chronitis.net>  Fri, 11 Dec 2020 16:58:09 +0000
+
+python-sh (1.12.14-2) unstable; urgency=medium
+
+  * Team upload.
+  * Use debhelper-compat instead of debian/compat.
+  * Drop Python 2 support.
+  * Enable autopkgtest-pkg-python testsuite.
+  * Bump debhelper compat level to 12.
+  * Bump standards version to 4.4.0 (no changes).
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 09 Aug 2019 11:34:27 +0200
+
+python-sh (1.12.14-1.1) unstable; urgency=medium
+
+  [ Antoine Beaupré ]
+  * Non-maintainer upload
+  * New upstream version 1.12.14 (Closes: #907370)
+
+  [ Ondřej Nový ]
+  * Fixed VCS URL (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Fix Format URL to correct one
+  * d/watch: Use https protocol
+  * d/control: Remove ancient X-Python-Version field
+  * d/control: Remove ancient X-Python3-Version field
+  * Convert git repository from git-dpm to gbp layout
+
+ -- Antoine Beaupré <anarcat@debian.org>  Tue, 04 Sep 2018 09:04:49 -0400
+
+python-sh (1.11-1) unstable; urgency=medium
+
+  * Update to 1.11 upstream release.
+
+ -- Tianon Gravi <admwiggin@gmail.com>  Sat, 02 May 2015 23:06:10 +0000
+
+python-sh (1.09-1) unstable; urgency=medium
+
+  * Initial release (Closes: #699123).
+
+ -- Tianon Gravi <admwiggin@gmail.com>  Thu, 31 Jul 2014 19:26:58 -0400
